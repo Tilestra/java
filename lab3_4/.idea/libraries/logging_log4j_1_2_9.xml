@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="logging-log4j-1.2.9">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/logging-log4j-1.2.9.zip!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/lib/logging-log4j-1.2.9.zip!/logging-log4j-1.2.9/docs/api" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib/logging-log4j-1.2.9.zip!/logging-log4j-1.2.9" />
+      <root url="jar://$PROJECT_DIR$/lib/logging-log4j-1.2.9.zip!/logging-log4j-1.2.9/contribs/CekiGulcu" />
+      <root url="jar://$PROJECT_DIR$/lib/logging-log4j-1.2.9.zip!/logging-log4j-1.2.9/contribs/Jamie Tsao" />
+      <root url="jar://$PROJECT_DIR$/lib/logging-log4j-1.2.9.zip!/logging-log4j-1.2.9/contribs/JimMoore" />
+      <root url="jar://$PROJECT_DIR$/lib/logging-log4j-1.2.9.zip!/logging-log4j-1.2.9/contribs/ThomasFenner" />
+      <root url="jar://$PROJECT_DIR$/lib/logging-log4j-1.2.9.zip!/logging-log4j-1.2.9/src/java" />
+    </SOURCES>
+  </library>
+</component>
