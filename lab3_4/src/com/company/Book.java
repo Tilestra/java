@@ -15,5 +15,7 @@ public class Book extends BookProto{
         super(pagesCount, coverMaterial, cost);
 
         bookType = type;
+
+        log.info("The Book was created");
     }
 }

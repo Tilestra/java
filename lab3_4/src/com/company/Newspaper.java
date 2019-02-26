@@ -3,10 +3,21 @@ package com.company;
 import com.company.enums.CoverMaterial;
 import com.company.interfaces.IContent;
 
+import java.util.Date;
 
-public class Newspaper extends BookProto implements IContent {
 
-    private static final String MESSAGE_TO_INFORM = "The author name is Ilya";
+public class Newspaper extends BookProto implements IContent, Comparable<Newspaper> {
+
+
+    @Override
+    public int compareTo(Newspaper o) {
+        if (getOutDate() == null || o.getOutDate() == null) {
+            return 0;
+        }
+        return getOutDate().compareTo(o.getOutDate());
+    }
+
+
 
     public void BringTheTruth(String message){
         System.out.println(message + " - it is a truth!");
@@ -16,7 +27,21 @@ public class Newspaper extends BookProto implements IContent {
         System.out.println(message + " - it is a lie!");
     }
 
-    public Newspaper(int pagesCount, int cost){
+
+    private Date outDate;
+
+    public Date getOutDate(){
+        return outDate;
+    }
+
+
+
+
+    public Newspaper(int pagesCount, int cost, Date outDate){
         super(pagesCount, CoverMaterial.PAPER, cost);
+
+        this.outDate = outDate;
+
+        log.info("The Newspaper was created");
     }
 }

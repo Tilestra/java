@@ -2,17 +2,13 @@ package com.company.classes;
 
 import com.company.BookProto;
 import com.company.Magazine;
+import com.company.Newspaper;
 
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-public class Librarian implements Comparable<Magazine>{
-
-    @Override
-    public int compareTo(Magazine o) {
-        return o.getRedaction().getReleaseDate().compareTo(o.getRedaction().getReleaseDate());
-    }
+public class Librarian{
 
 
     public static int GetGeneralCostOfLibrari(List<BookProto> library){
@@ -24,8 +20,10 @@ public class Librarian implements Comparable<Magazine>{
         return result;
     }
 
-    public static List<Magazine> MakeSortMagazinesByRelease(List<Magazine> magazines){
-        return null;
+    public static List<Newspaper> MakeSortNewspapersByRelease(List<Newspaper> newspapers){
+        // Ascending sorting
+        Collections.sort(newspapers);
+        return newspapers;
     }
 
 
