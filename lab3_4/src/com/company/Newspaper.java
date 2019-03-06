@@ -1,5 +1,6 @@
 package com.company;
 
+import com.company.classes.Log;
 import com.company.enums.CoverMaterial;
 import com.company.interfaces.IContent;
 
@@ -42,6 +43,6 @@ public class Newspaper extends BookProto implements IContent, Comparable<Newspap
 
         this.outDate = outDate;
 
-        log.info("The Newspaper was created");
+        Log.getLog().info("The Newspaper was created");
     }
 }

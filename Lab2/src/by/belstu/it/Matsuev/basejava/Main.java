@@ -1,15 +1,20 @@
 package by.belstu.it.Matsuev.basejava;
+import java.util.logging.Logger;
+
 import static java.lang.Math.*;
 
 /** @author  Asus
  *  @version 2*/
 public class Main {
 
+
     static  int sint;
     public  static  final int FIRST = 1;
-    public  final int SECOND = 0;
+    public  final int SECOND = 2;
+
 
     public static void main(String[] args) {
+
 
         char ch = 'q';
         int num = 123;
@@ -29,9 +34,8 @@ public class Main {
         //System.out.println(true + false);
         long qw = 9223372036854775807L;
         long w = 0x7fff_ffff_fffL;
-        char a = 'a',
-                //u = \u0061
-                q = 97;
+        char a = 'a', u = '\u0061', q = 97;
+
         System.out.println(3.45 % 2.4);
         System.out.println(1.0 / 0.0);
         System.out.println(0.0 / 0.0);
@@ -110,6 +114,8 @@ public class Main {
             void Replace(char q, char w){
                 System.out.println("I'am an anon method!");
             }
+
+
         };
         ((Anonymous) anon).Replace('1', 'w');
     }

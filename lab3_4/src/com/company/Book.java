@@ -1,5 +1,6 @@
 package com.company;
 
+import com.company.classes.Log;
 import com.company.enums.BookType;
 import com.company.enums.CoverMaterial;
 
@@ -16,6 +17,6 @@ public class Book extends BookProto{
 
         bookType = type;
 
-        log.info("The Book was created");
+        Log.getLog().info("The Book was created");
     }
 }
