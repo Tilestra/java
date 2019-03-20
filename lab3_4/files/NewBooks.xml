@@ -2,13 +2,58 @@
 <java version="11.0.2" class="java.beans.XMLDecoder">
  <object class="java.util.ArrayList">
   <void method="add">
-   <object class="com.company.Newspaper"/>
+   <object class="com.company.Newspaper" id="Newspaper0">
+    <void class="com.company.BookProto" method="getField">
+     <string>pagesCount</string>
+     <void method="set">
+      <object idref="Newspaper0"/>
+      <int>15</int>
+     </void>
+    </void>
+    <void class="com.company.BookProto" method="getField">
+     <string>cost</string>
+     <void method="set">
+      <object idref="Newspaper0"/>
+      <int>1</int>
+     </void>
+    </void>
+   </object>
   </void>
   <void method="add">
-   <object class="com.company.Newspaper"/>
+   <object class="com.company.Newspaper" id="Newspaper1">
+    <void class="com.company.BookProto" method="getField">
+     <string>pagesCount</string>
+     <void method="set">
+      <object idref="Newspaper1"/>
+      <int>12</int>
+     </void>
+    </void>
+    <void class="com.company.BookProto" method="getField">
+     <string>cost</string>
+     <void method="set">
+      <object idref="Newspaper1"/>
+      <int>1</int>
+     </void>
+    </void>
+   </object>
   </void>
   <void method="add">
-   <object class="com.company.Newspaper"/>
+   <object class="com.company.Newspaper" id="Newspaper2">
+    <void class="com.company.BookProto" method="getField">
+     <string>pagesCount</string>
+     <void method="set">
+      <object idref="Newspaper2"/>
+      <int>13</int>
+     </void>
+    </void>
+    <void class="com.company.BookProto" method="getField">
+     <string>cost</string>
+     <void method="set">
+      <object idref="Newspaper2"/>
+      <int>2</int>
+     </void>
+    </void>
+   </object>
   </void>
  </object>
 </java>

@@ -11,21 +11,10 @@ public abstract class BookProto implements Serializable {
 
 
 
-    private int pagesCount;
-    private CoverMaterial coverMaterial;
-    private int cost;
+    public int pagesCount;
+    public CoverMaterial coverMaterial;
+    public int cost;
 
-
-
-    public int getPagesCount() {
-        return pagesCount;
-    }
-    public CoverMaterial getCoverMaterial() {
-        return coverMaterial;
-    }
-    public int getCost() {
-        return cost;
-    }
 
 
 

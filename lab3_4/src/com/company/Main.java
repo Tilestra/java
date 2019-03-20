@@ -3,6 +3,8 @@ package com.company;
 import com.company.classes.Librarian;
 import com.company.classes.Serializer;
 import com.company.enums.*;
+
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -20,20 +22,20 @@ public class Main {
             BookProto book1 = new Book(300, CoverMaterial.LEATHER, 300, BookType.FANTASTIC);
             BookProto magazine1 = new Magazine(20, 3, magazineRedactionName, magazineReleasedate);*/
 
-            List<BookProto> newspapers = new ArrayList();
+            List<BookProto> newspapers = new ArrayList<>();
 
-            BookProto newspaper1 = new Newspaper(15, 1, newspaperOutDate);
-            BookProto newspaper2 = new Newspaper(12, 1, magazineReleaseDate);
-            BookProto newspaper3 = new Newspaper(13, 2, newspaperOutDate);
+            Newspaper newspaper1 = new Newspaper(15, 1, newspaperOutDate);
+            Newspaper newspaper2 = new Newspaper(12, 1, magazineReleaseDate);
+            Newspaper newspaper3 = new Newspaper(13, 2, newspaperOutDate);
             newspapers.add(newspaper1);
             newspapers.add(newspaper2);
             newspapers.add(newspaper3);
 
 
-
             //Serializer.SerializeBooksToDat(newspapers);
             //Serializer.AnalyzeBooksXML();
             Serializer.SerializeBooksToXML(newspapers);
+            newspapers = Serializer.DeserializeXMLToBooks();
 
         }catch (Exception exc){
             System.out.println(exc.getMessage());

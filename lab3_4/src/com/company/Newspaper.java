@@ -3,6 +3,7 @@ package com.company;
 import com.company.enums.CoverMaterial;
 import com.company.interfaces.IContent;
 
+import java.sql.Time;
 import java.util.Date;
 
 
@@ -39,11 +40,13 @@ public class Newspaper extends BookProto implements IContent, Comparable<Newspap
 
     public Newspaper(int pagesCount, int cost, Date outDate){
         super(pagesCount, CoverMaterial.PAPER, cost);
-
         this.outDate = outDate;
 
         log.info("The Newspaper was created");
     }
 
-    public Newspaper(){}
+    public Newspaper(){
+        super(0, CoverMaterial.PAPER, 0);
+        outDate = null;
+    }
 }

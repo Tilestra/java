@@ -1,11 +1,16 @@
 package com.company.classes;
 
+import com.company.Book;
 import com.company.BookProto;
+import com.company.Newspaper;
 import org.w3c.dom.*;
 import javax.xml.parsers.*;
+import javax.xml.stream.XMLStreamWriter;
 import java.beans.ExceptionListener;
+import java.beans.XMLDecoder;
 import java.beans.XMLEncoder;
 import java.io.*;
+import java.util.ArrayList;
 import java.util.List;
 
 public class Serializer {
@@ -51,7 +56,7 @@ public class Serializer {
 
     public static void SerializeBooksToXML(List<BookProto> books) throws Exception{
         FileOutputStream file = new FileOutputStream(DIR_PATH + "NewBooks.xml");
-        XMLEncoder encoder = new XMLEncoder(file);
+        XMLEncoder encoder = new XMLEncoder(new BufferedOutputStream(file));
         encoder.setExceptionListener(new ExceptionListener() {
             public void exceptionThrown(Exception e) {
                 System.out.println("Exception! :" + e.toString());
@@ -60,5 +65,21 @@ public class Serializer {
         encoder.writeObject(books);
         encoder.close();
         file.close();
+    }
+
+    public static List<BookProto> DeserializeXMLToBooks() throws Exception{
+
+        List<BookProto> books = new ArrayList<>();
+        FileInputStream file = new FileInputStream(DIR_PATH + "NewBooks.xml");
+        XMLDecoder dencoder = new XMLDecoder(file);
+        dencoder.setExceptionListener(new ExceptionListener() {
+            public void exceptionThrown(Exception e) {
+                System.out.println("Exception! :" + e.toString());
+            }
+        });
+        books = (List<BookProto>) dencoder.readObject();
+        dencoder.close();
+        file.close();
+        return books;
     }
 }
