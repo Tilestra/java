@@ -1,0 +1,22 @@
+Mar 06, 2019 10:41:53 AM com.company.classes.Log <clinit>
+CONFIG: Alright
+Mar 06, 2019 10:41:54 AM com.company.BookProto <init>
+INFO: Creation BookProto
+Mar 06, 2019 10:41:54 AM com.company.Book <init>
+INFO: The Book was created
+Mar 06, 2019 10:41:54 AM com.company.BookProto <init>
+INFO: Creation BookProto
+Mar 06, 2019 10:41:54 AM com.company.Magazine <init>
+INFO: New Magazine
+Mar 06, 2019 10:41:54 AM com.company.BookProto <init>
+INFO: Creation BookProto
+Mar 06, 2019 10:41:54 AM com.company.Newspaper <init>
+INFO: The Newspaper was created
+Mar 06, 2019 10:41:54 AM com.company.BookProto <init>
+INFO: Creation BookProto
+Mar 06, 2019 10:41:54 AM com.company.Newspaper <init>
+INFO: The Newspaper was created
+Mar 06, 2019 10:41:54 AM com.company.BookProto <init>
+INFO: Creation BookProto
+Mar 06, 2019 10:41:54 AM com.company.Newspaper <init>
+INFO: The Newspaper was created
