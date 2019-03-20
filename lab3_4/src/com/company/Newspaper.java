@@ -44,4 +44,6 @@ public class Newspaper extends BookProto implements IContent, Comparable<Newspap
 
         log.info("The Newspaper was created");
     }
+
+    public Newspaper(){}
 }

@@ -1,15 +1,11 @@
 package com.company.classes;
 
 import com.company.BookProto;
-import com.company.Magazine;
 import com.company.Newspaper;
-
 import java.util.Collections;
-import java.util.Comparator;
 import java.util.List;
 
 public class Librarian{
-
 
     public static int GetGeneralCostOfLibrari(List<BookProto> library){
         int result = 0;
@@ -21,7 +17,6 @@ public class Librarian{
     }
 
     public static List<Newspaper> MakeSortNewspapersByRelease(List<Newspaper> newspapers){
-        // Ascending sorting
         Collections.sort(newspapers);
         return newspapers;
     }

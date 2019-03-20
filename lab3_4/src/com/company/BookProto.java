@@ -1,9 +1,11 @@
 package com.company;
 
 import com.company.enums.CoverMaterial;
+import java.io.Serializable;
 import java.util.logging.Logger;
 
-public abstract class BookProto {
+
+public abstract class BookProto implements Serializable {
 
     protected static final Logger log = Logger.getLogger(BookProto.class.toString());
 
@@ -18,17 +20,13 @@ public abstract class BookProto {
     public int getPagesCount() {
         return pagesCount;
     }
-
-
     public CoverMaterial getCoverMaterial() {
         return coverMaterial;
     }
-
-
-
     public int getCost() {
         return cost;
     }
+
 
 
 
@@ -37,12 +35,9 @@ public abstract class BookProto {
         this.coverMaterial = coverMaterial;
         this.cost = cost;
     }
-
-    public  BookProto(){
+    protected BookProto(){
         pagesCount = 0;
-        cost = 0;
         coverMaterial = CoverMaterial.NONE;
-
-        log.info("Book Prototype was created");
+        cost = 0;
     }
 }
