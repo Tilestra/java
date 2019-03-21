@@ -4,15 +4,12 @@
     <list default="true" id="a46e48bb-720d-4b9b-a932-bbe458446b9a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/files/NewBooks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/files/NewBooks.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab3_4/com/company/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab3_4/com/company/Book.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab3_4/com/company/Magazine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab3_4/com/company/Magazine.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/lab3_4/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab3_4/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab3_4/com/company/Newspaper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab3_4/com/company/Newspaper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab3_4/com/company/classes/Serializer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab3_4/com/company/classes/Serializer$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab3_4/com/company/classes/Serializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab3_4/com/company/classes/Serializer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/BookProto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/BookProto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Magazine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Magazine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Newspaper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Newspaper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/classes/Librarian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/classes/Librarian.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/classes/Serializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/classes/Serializer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,8 +23,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="39" lean-forward="true" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
+            <state relative-caret-position="331">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -38,8 +35,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/BookProto.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="153">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -50,12 +47,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Newspaper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+            <state relative-caret-position="476">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#473#474#0" expanded="true" />
-                <element signature="e#538#539#0" expanded="true" />
                 <element signature="e#728#729#0" expanded="true" />
                 <element signature="e#758#759#0" expanded="true" />
               </folding>
@@ -66,14 +61,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/classes/Serializer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
+            <state relative-caret-position="952">
               <caret line="69" column="55" selection-start-line="69" selection-start-column="34" selection-end-line="69" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2363#2364#0" expanded="true" />
-                <element signature="e#2444#2445#0" expanded="true" />
-                <element signature="e#2906#2907#0" expanded="true" />
-                <element signature="e#2987#2988#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -82,8 +73,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/files/NewBooks.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="8" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="8" />
+            <state relative-caret-position="170">
+              <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -137,8 +128,6 @@
         <option value="$PROJECT_DIR$/src/com/company/enums/CoverMaterial.java" />
         <option value="$PROJECT_DIR$/src/com/company/interfaces/IContent.java" />
         <option value="$PROJECT_DIR$/files/info.json" />
-        <option value="$PROJECT_DIR$/src/com/company/Book.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Magazine.java" />
         <option value="$PROJECT_DIR$/files/books.xsd" />
         <option value="$PROJECT_DIR$/files/books.xslt" />
         <option value="$PROJECT_DIR$/files/books.xml" />
@@ -147,6 +136,8 @@
         <option value="$PROJECT_DIR$/src/com/company/BookProto.java" />
         <option value="$PROJECT_DIR$/src/com/company/classes/Librarian.java" />
         <option value="$PROJECT_DIR$/src/com/company/classes/Serializer.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Book.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Magazine.java" />
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
       </list>
     </option>
@@ -269,17 +260,19 @@
       <workItem from="1553026210028" duration="4806000" />
       <workItem from="1553064644576" duration="5463000" />
       <workItem from="1553112490531" duration="3403000" />
+      <workItem from="1553152572114" duration="2243000" />
+      <workItem from="1553166241946" duration="1719000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27220000" />
+    <option name="totallyTimeSpent" value="31182000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13059701" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13272922" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -384,22 +377,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Magazine.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/classes/Librarian.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        <state relative-caret-position="425">
+          <caret line="25" column="30" lean-forward="true" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#234#235#0" expanded="true" />
-            <element signature="e#311#312#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Book.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        <state relative-caret-position="340">
+          <caret line="20" column="4" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#202#203#0" expanded="true" />
@@ -408,10 +399,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/files/books.xsd">
+    <entry file="file://$PROJECT_DIR$/src/com/company/Magazine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="38" selection-start-column="38" selection-end-column="38" />
+        <state relative-caret-position="334">
+          <caret line="43" column="59" selection-start-line="43" selection-start-column="59" selection-end-line="43" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#234#235#0" expanded="true" />
+            <element signature="e#311#312#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/BookProto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Newspaper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#728#729#0" expanded="true" />
+            <element signature="e#758#759#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/classes/Serializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="69" column="55" selection-start-line="69" selection-start-column="34" selection-end-line="69" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/files/NewBooks.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -429,68 +474,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/BookProto.java">
+    <entry file="file://$PROJECT_DIR$/files/books.xsd">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/classes/Librarian.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="30" lean-forward="true" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/files/NewBooks.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="8" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Newspaper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#473#474#0" expanded="true" />
-            <element signature="e#538#539#0" expanded="true" />
-            <element signature="e#728#729#0" expanded="true" />
-            <element signature="e#758#759#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/classes/Serializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="69" column="55" selection-start-line="69" selection-start-column="34" selection-end-line="69" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2363#2364#0" expanded="true" />
-            <element signature="e#2444#2445#0" expanded="true" />
-            <element signature="e#2906#2907#0" expanded="true" />
-            <element signature="e#2987#2988#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="39" lean-forward="true" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state>
+          <caret column="38" selection-start-column="38" selection-end-column="38" />
         </state>
       </provider>
     </entry>
