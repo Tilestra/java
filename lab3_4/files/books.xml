@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" version="2.0" href = "books.xsl"?>
+<books xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="books.xsd">
+    <book>
+        <pages>123</pages>
+        <cost>5000</cost>
+        <material>CARTOON</material>
+    </book>
+    <book>
+        <pages>43</pages>
+        <cost>900</cost>
+        <material>PAPER</material>
+    </book>
+    <book>
+        <pages>233</pages>
+        <cost>11133</cost>
+        <material>LEATHER</material>
+    </book>
+</books>
