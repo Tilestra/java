@@ -21,6 +21,7 @@ public class Main {
 
 
 
+
             BookProto book1 = new Book(300, CoverMaterial.LEATHER, 300, BookType.FANTASTIC);
 
             BookProto magazine1 = new Magazine(20, 3, magazineRedactionName, magazineReleaseDate);
