@@ -9,8 +9,6 @@ import java.util.Date;
 
 public class Newspaper extends BookProto implements IContent, Comparable<Newspaper> {
 
-
-    @Override
     public int compareTo(Newspaper o) {
         if (getOutDate() == null || o.getOutDate() == null) {
             return 0;
@@ -42,7 +40,7 @@ public class Newspaper extends BookProto implements IContent, Comparable<Newspap
         super(pagesCount, CoverMaterial.PAPER, cost);
         this.outDate = outDate;
 
-        log.info("The Newspaper was created");
+        //log.info("The Newspaper was created");
     }
 
     public Newspaper(){

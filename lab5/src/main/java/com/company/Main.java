@@ -3,8 +3,6 @@ package com.company;
 import com.company.classes.Librarian;
 import com.company.classes.Serializer;
 import com.company.enums.*;
-
-import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;

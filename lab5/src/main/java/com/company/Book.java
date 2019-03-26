@@ -16,7 +16,7 @@ public class Book extends BookProto{
 
         bookType = type;
 
-        log.info("The Book was created");
+        //log.info("The Book was created");
     }
 
     public Book(){}

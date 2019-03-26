@@ -7,15 +7,11 @@ import java.util.logging.Logger;
 
 public abstract class BookProto implements Serializable {
 
-    protected static final Logger log = Logger.getLogger(BookProto.class.toString());
-
-
+    //protected static final Logger log = Logger.getLogger(BookProto.class.toString());
 
     public int pagesCount;
     public CoverMaterial coverMaterial;
     public int cost;
-
-
 
 
 
