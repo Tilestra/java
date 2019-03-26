@@ -15,8 +15,6 @@ public abstract class BookProto implements Serializable {
 
 
 
-
-
     protected BookProto(int pagesCount, CoverMaterial coverMaterial, int cost){
         this.pagesCount = pagesCount;
         this.coverMaterial = coverMaterial;
