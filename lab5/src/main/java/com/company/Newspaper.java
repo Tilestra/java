@@ -42,7 +42,7 @@ public class Newspaper extends BookProto implements IContent, Comparable<Newspap
         super(pagesCount, CoverMaterial.PAPER, cost);
         this.outDate = outDate;
 
-        log.info("The Newspaper was created");
+        //log.info("The Newspaper was created");
     }
 
     public Newspaper(){

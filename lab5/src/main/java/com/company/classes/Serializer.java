@@ -69,7 +69,7 @@ public class Serializer {
 
     public static List<BookProto> DeserializeXMLToBooks() throws Exception{
 
-        List<BookProto> books = new ArrayList<>();
+        List<BookProto> books = new ArrayList<BookProto>();
         FileInputStream file = new FileInputStream(DIR_PATH + "NewBooks.xml");
         XMLDecoder dencoder = new XMLDecoder(file);
         dencoder.setExceptionListener(new ExceptionListener() {

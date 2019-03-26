@@ -46,7 +46,7 @@ public class Magazine extends BookProto implements IContent {
 
         redaction = new Redaction(redactionName, releaseDate);
 
-        log.info("The Magazine was created");
+        //log.info("The Magazine was created");
     }
 
     public Magazine(){}
