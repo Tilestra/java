@@ -17,12 +17,7 @@ public class Main {
         try{
             Date magazineReleaseDate = new Date(2019, 2, 25);
             Date newspaperOutDate = new Date(2019, 1, 8);
-
-<<<<<<< HEAD
-
-=======
             /*String magazineRedactionName = "Deagostiny";
->>>>>>> 64d0f44f4f43b0a1625455917b9cb7a4a2f1cf12
             BookProto book1 = new Book(300, CoverMaterial.LEATHER, 300, BookType.FANTASTIC);
             BookProto magazine1 = new Magazine(20, 3, magazineRedactionName, magazineReleasedate);*/
 

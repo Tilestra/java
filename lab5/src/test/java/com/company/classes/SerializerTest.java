@@ -1,19 +1,7 @@
 package com.company.classes;
 
-import com.company.Book;
-import com.company.BookProto;
-import com.company.Newspaper;
-import org.w3c.dom.*;
-import javax.xml.parsers.*;
-import javax.xml.stream.XMLStreamWriter;
-import java.beans.ExceptionListener;
-import java.beans.XMLDecoder;
-import java.beans.XMLEncoder;
-import java.io.*;
-import java.util.ArrayList;
-import java.util.List;
 
-public class Serializer {
+public class SerializerTest {
 
     private static final String DIR_PATH = "D:\\university\\2 curse\\ооп2\\Java-labs\\lab3_4\\files\\";
 

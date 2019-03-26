@@ -9,7 +9,7 @@ public class Librarian{
 
     public static int GetGeneralCostOfLibrari(List<BookProto> library){
         int result = 0;
-        for (var book : library) {
+        for (BookProto book : library) {
             result += book.cost;
         }
 
@@ -23,7 +23,7 @@ public class Librarian{
 
 
     public static BookProto GetBookByPagesCount(List<BookProto> library, int pages){
-        for (var book : library){
+        for (BookProto book : library){
             if (book.pagesCount == pages){
                 return  book;
             }
