@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-<<<<<<< HEAD
-  <component name="Encoding">
-=======
-  <component name="Encoding" addBOMForNewFiles="with NO BOM">
->>>>>>> c4ddb6a45f234ff3d9626f87b679e5dc060498d1
-    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
-  </component>
+    <component name="Encoding" addBOMForNewFiles="with NO BOM">
+        <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    </component>
 </project>

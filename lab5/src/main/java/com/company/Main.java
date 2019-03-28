@@ -34,7 +34,6 @@ public class Main {
             books.add(magazine1);
 
 
-
             //Serializer.SerializeBooksToDat(books);
             //Serializer.AnalyzeBooksXML();
             Serializer.SerializeBooksToXML(books);

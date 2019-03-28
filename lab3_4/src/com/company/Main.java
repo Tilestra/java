@@ -5,9 +5,13 @@ import com.company.classes.Serializer;
 import com.company.enums.*;
 
 import java.io.Serializable;
+import java.sql.Connection;
+import java.sql.DriverManager;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+
+import static java.sql.DriverManager.getConnection;
 
 public class Main {
 
@@ -15,6 +19,10 @@ public class Main {
     public static void main(String[] args) {
 
         try{
+            /*Connection connection = DriverManager.getConnection("jdbc:sql://localhost/store", "DESKTOP-RFSFAJA\\SQLEXPRESS", "root");
+
+            connection.close();*/
+
             Date magazineReleaseDate = new Date(2019, 2, 25);
             Date newspaperOutDate = new Date(2019, 1, 8);
             /*String magazineRedactionName = "Deagostiny";

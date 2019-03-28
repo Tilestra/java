@@ -15,7 +15,7 @@ import java.util.List;
 
 public class Serializer {
 
-    private static final String DIR_PATH = "C:\\university\\Java\\java-labs\\Java-labs\\lab3_4\\files\\";
+    private static final String DIR_PATH = "D:\\university\\2 curse\\ооп2\\Java-labs\\lab3_4\\files\\";
 
 
     public static void AnalyzeBooksXML() throws Exception{
