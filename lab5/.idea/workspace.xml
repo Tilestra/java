@@ -2,37 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85fcbbcd-8607-4ca5-9b3c-5821c70e0722" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/lab5.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab3_4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3_4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab3_4/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3_4/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab3_4/src/com/company/classes/Serializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3_4/src/com/company/classes/Serializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/classes/LibrarianTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/classes/LogTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/classes/MagazineTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/classes/NewspaperTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/classes/SerializerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/lab5.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/Book.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/BookProto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/BookProto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/Magazine$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/Magazine$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/Magazine$Redaction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/Magazine$Redaction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/Magazine.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/Magazine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/Newspaper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/Newspaper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/classes/Librarian.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/classes/Librarian.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/classes/Log.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/classes/Serializer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/classes/Serializer$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/classes/Serializer$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/classes/Serializer$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/classes/Serializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/classes/Serializer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/enums/BookType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/enums/BookType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/enums/CoverMaterial.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/enums/CoverMaterial.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/interfaces/IContent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/interfaces/IContent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/UnitTests/LibrarianTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/UnitTests/LibrarianTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UnitTests/LibrarianTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitTests/LibrarianTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -72,8 +42,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/UnitTests/LibrarianTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="32" column="72" lean-forward="true" selection-start-line="32" selection-start-column="72" selection-end-line="32" selection-end-column="72" />
+            <state relative-caret-position="306">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+              <folding>
+                <element signature="e#1019#1030#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -81,8 +54,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/company/classes/Librarian.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+            <state relative-caret-position="357">
+              <caret line="24" column="45" lean-forward="true" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -102,7 +75,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/company/classes/Serializer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
+            <state relative-caret-position="680">
               <caret line="51" column="36" selection-start-line="51" selection-start-column="36" selection-end-line="51" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -133,10 +106,10 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/Newspaper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/BookProto.java" />
-        <option value="$PROJECT_DIR$/src/test/java/UnitTests/LibrarianTest.java" />
         <option value="$PROJECT_DIR$/.idea/encodings.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/classes/Serializer.java" />
+        <option value="$PROJECT_DIR$/src/test/java/UnitTests/LibrarianTest.java" />
       </list>
     </option>
   </component>
@@ -170,8 +143,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -244,7 +217,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553674719768" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554278819846" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -391,28 +364,11 @@
       <workItem from="1553633288894" duration="102000" />
       <workItem from="1553670458894" duration="645000" />
       <workItem from="1553674517137" duration="233000" />
+      <workItem from="1554275185194" duration="3004000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LibrarianTest_testGetGeneralCostOfLibrary - 2019.03.26 at 18h 49m 33s.xml">
-      <configuration name="LibrarianTest.testGetGeneralCostOfLibrary" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LibrarianTest - 2019.03.26 at 19h 13m 01s.xml">
-      <configuration name="LibrarianTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LibrarianTest_testMakeSortNewspapersByRelease - 2019.03.26 at 19h 16m 17s.xml">
-      <configuration name="LibrarianTest.testMakeSortNewspapersByRelease" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LibrarianTest - 2019.03.26 at 19h 19m 15s.xml">
-      <configuration name="LibrarianTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LibrarianTest_testMakeSortNewspapersByRelease - 2019.03.26 at 23h 39m 46s.xml">
-      <configuration name="LibrarianTest.testMakeSortNewspapersByRelease" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LibrarianTest - 2019.03.26 at 23h 49m 46s.xml">
-      <configuration name="LibrarianTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="LibrarianTest_testGetGeneralCostOfLibrary - 2019.03.27 at 11h 15m 50s.xml">
       <configuration name="LibrarianTest.testGetGeneralCostOfLibrary" configurationId="TestNG" />
     </history-entry>
@@ -422,15 +378,36 @@
     <history-entry file="LibrarianTest - 2019.03.27 at 11h 18m 42s.xml">
       <configuration name="LibrarianTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="LibrarianTest - 2019.04.03 at 10h 13m 28s.xml">
+      <configuration name="LibrarianTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LibrarianTest - 2019.04.03 at 10h 24m 49s.xml">
+      <configuration name="LibrarianTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LibrarianTest - 2019.04.03 at 10h 25m 50s.xml">
+      <configuration name="LibrarianTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LibrarianTest - 2019.04.03 at 10h 26m 50s.xml">
+      <configuration name="LibrarianTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LibrarianTest - 2019.04.03 at 10h 27m 01s.xml">
+      <configuration name="LibrarianTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LibrarianTest - 2019.04.03 at 10h 27m 54s.xml">
+      <configuration name="LibrarianTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LibrarianTest - 2019.04.03 at 11h 03m 13s.xml">
+      <configuration name="LibrarianTest" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8699000" />
+    <option name="totallyTimeSpent" value="11703000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1719" height="932" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16476248" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16656645" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -452,7 +429,6 @@
       <window_info anchor="bottom" id="Terminal" order="12" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.32917705" />
-      <window_info active="true" anchor="right" id="Coverage" side_tool="true" visible="true" weight="0.32952496" />
       <window_info anchor="right" id="Bean Validation" order="0" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
@@ -463,6 +439,7 @@
       <window_info anchor="right" id="Maven" order="7" weight="0.32995737" />
       <window_info anchor="right" id="Capture Analysis" order="8" />
       <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info active="true" anchor="right" id="Coverage" order="10" side_tool="true" visible="true" weight="0.32952496" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -555,7 +532,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/company/classes/Serializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
+        <state relative-caret-position="680">
           <caret line="51" column="36" selection-start-line="51" selection-start-column="36" selection-end-line="51" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -565,15 +542,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/company/classes/Librarian.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+        <state relative-caret-position="357">
+          <caret line="24" column="45" lean-forward="true" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/UnitTests/LibrarianTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="32" column="72" lean-forward="true" selection-start-line="32" selection-start-column="72" selection-end-line="32" selection-end-column="72" />
+        <state relative-caret-position="306">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="e#1019#1030#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

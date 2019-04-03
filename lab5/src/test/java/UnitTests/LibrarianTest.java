@@ -7,6 +7,7 @@ import com.company.Newspaper;
 import com.company.classes.Librarian;
 import com.company.enums.BookType;
 import com.company.enums.CoverMaterial;
+import org.junit.Ignore;
 import org.testng.Assert;
 import org.testng.annotations.*;
 import java.util.ArrayList;
@@ -26,23 +27,29 @@ public class LibrarianTest {
     private final static Date DATE2 = new Date(2019, 3, 2);
     private final static Date DATE3 = new Date(2019, 4, 3);
 
+    private static List<BookProto> Library = new ArrayList<BookProto>();
 
-    @Test
-    public static void testGetGeneralCostOfLibrary(){
+
+    @BeforeSuite
+    public static void FillLibrary(){
+
         Book book = new Book(PAGE_COUNT, COVER_MATERIAL, COST, BOOK_TYPE);
-        Newspaper newspaper = new Newspaper(PAGE_COUNT, COST * 2, DATE);
-        Magazine magazine = new Magazine(PAGE_COUNT, COST, REDACTION, DATE);
+        Newspaper newspaper = new Newspaper(PAGE_COUNT * PAGE_COUNT, COST * 2, DATE);
+        Magazine magazine = new Magazine(PAGE_COUNT - PAGE_COUNT / 2, COST, REDACTION, DATE);
 
-        List<BookProto> library = new ArrayList<BookProto>();
-        library.add(book);
-        library.add(newspaper);
-        library.add(magazine);
+        Library.add(book);
+        Library.add(newspaper);
+        Library.add(magazine);
+    }
 
+
+    @Ignore
+    public static void testGetGeneralCostOfLibrary(){
         int expectedCost = 0;
-        for (BookProto bk : library) {
+        for (BookProto bk : Library) {
             expectedCost += bk.cost;
         }
-        int actualCost = Librarian.GetGeneralCostOfLibrari(library);
+        int actualCost = Librarian.GetGeneralCostOfLibrari(Library);
         Assert.assertEquals(expectedCost, actualCost);
     }
 
@@ -64,15 +71,10 @@ public class LibrarianTest {
 
     @Test
     public static void testGetBookByPagesCount(){
-        Newspaper newspaper = new Newspaper(PAGE_COUNT, COST, DATE);
-        Book book = new Book(PAGE_COUNT * PAGE_COUNT, COVER_MATERIAL, COST, BOOK_TYPE);
-        Magazine magazine = new Magazine(PAGE_COUNT - PAGE_COUNT / 2, COST, REDACTION, DATE);
+        Newspaper newspaper = new Newspaper(PAGE_COUNT / 2, COST, DATE);
 
-        List<BookProto> library = new ArrayList<BookProto>();
-        library.add(newspaper);
-        library.add(book);
-        library.add(magazine);
-        BookProto actualBook = Librarian.GetBookByPagesCount(library, newspaper.pagesCount);
+        Library.add(newspaper);
+        BookProto actualBook = Librarian.GetBookByPagesCount(Library, newspaper.pagesCount);
         Assert.assertEquals(newspaper.pagesCount, actualBook.pagesCount);
     }
 
