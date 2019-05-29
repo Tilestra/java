@@ -28,9 +28,6 @@ public class Server {
                     int readBytes = in.read(inpBytes);
                     String line = new String(inpBytes, 0, readBytes);
                     System.out.println("Client> " + line + '\n');
-
-                    //out.write(line.getBytes());
-                    //out.flush();
                 }
             }
 

@@ -17,7 +17,6 @@ public class Task {
 
         WebProgramming webProgramming = new WebProgramming();
         webProgramming.FirstTask();
-        webProgramming.SecondTask();
     }
 
     private static void PassSomeSpace(){
@@ -105,10 +104,5 @@ public class Task {
                 e.printStackTrace();
             }
         }
-
-        public void SecondTask(){
-
-        }
     }
-
 }

@@ -22,12 +22,6 @@ public class Client implements Runnable{
             try(InputStream in = client.getInputStream(); OutputStream out = client.getOutputStream()){
                 out.write(message.getBytes());
                 out.flush();
-
-                //byte[] inputBytes = new byte[32 * 1024];
-                //int readBytes = in.read(inputBytes);
-                //String line = new String(inputBytes, 0, readBytes);
-
-                //System.out.println("Server> " + line);
             }
         }catch (IOException e){
             e.printStackTrace();

@@ -7,14 +7,14 @@ public class Main {
         DBConnector connector = new DBConnector();
         try {
             connector.SetConnection();
-            ResultSet queryResult = connector.ExecuteQuery(connector.PARAMS_LIST_FOR_PHONE_GROUP);
-            connector.DisplayRows(queryResult, connector.PARAMS_LIST_FOR_PHONE_GROUP, connector.PARAM_VALUE_COL);
+            ResultSet queryResult = connector.ExecuteQuery(connector.SELECT_PERSONS_BY_LANG);
+            connector.DisplayRows(queryResult, connector.SELECT_PERSONS_BY_LANG, connector.NAME_COL);
 
-            queryResult = connector.ExecuteQuery(connector.PRODUCT_LIST_WITHOUT_ONE_PARAMETER);
-            connector.DisplayRows(queryResult, connector.PRODUCT_LIST_WITHOUT_ONE_PARAMETER, connector.PROD_NAME_COL);
+            queryResult = connector.ExecuteQuery(connector.SELECT_CITY_BY_NAME);
+            connector.DisplayRows(queryResult, connector.SELECT_CITY_BY_NAME, connector.CITY_COL);
 
-            queryResult = connector.ExecuteQuery(connector.DESCRIPTION_FOR_ONE_GROUP);
-            connector.DisplayRows(queryResult, connector.DESCRIPTION_FOR_ONE_GROUP, connector.DESCRIPTION_COL);
+            queryResult = connector.ExecuteQuery(connector.SELECT_CITY_BY_POPULATION);
+            connector.DisplayRows(queryResult, connector.SELECT_CITY_BY_POPULATION, connector.CITY_NAME_COL);
 
 
             connector.CloseConnection();
