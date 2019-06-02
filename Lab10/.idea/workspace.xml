@@ -9,16 +9,10 @@
     <list default="true" id="b270317b-b94c-4682-a785-6167aaac77c9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab10.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab10.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Lab10_war_exploded/WEB-INF/classes/com/ServletTest/Classes/DBConnector.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Lab10_war_exploded/WEB-INF/classes/com/ServletTest/Classes/DBConnector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Lab10_war_exploded/WEB-INF/classes/com/ServletTest/Forms/RegisterServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Lab10_war_exploded/WEB-INF/classes/com/ServletTest/Forms/RegisterServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Lab10_war_exploded/Welcome.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Lab10_war_exploded/Welcome.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ServletTest/Classes/DBConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ServletTest/Classes/DBConnector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ServletTest/Classes/DBConnector.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ServletTest/Classes/DataProcessor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ServletTest/Classes/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ServletTest/Forms/LoginServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ServletTest/Forms/RegisterServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ServletTest/Lab10/GetDateServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ServletTest/Lab10/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ServletTest/main/WelcomeServlet.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -81,11 +75,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+            <state relative-caret-position="147">
+              <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -130,9 +133,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ServletTest/Forms/LoginServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ServletTest/Forms/RegisterServlet.java" />
         <option value="$PROJECT_DIR$/web/Welcome.jsp" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/ServletTest/Classes/DBConnector.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -164,8 +167,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -177,54 +178,6 @@
               <item name="Lab10" type="b2602c69:ProjectViewProjectNode" />
               <item name="Lab10" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Lab10" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Lab10" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Lab10" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Lab10" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Lab10" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Lab10" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ServletTest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Lab10" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Lab10" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ServletTest" type="462c0819:PsiDirectoryNode" />
-              <item name="Classes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Lab10" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Lab10" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ServletTest" type="462c0819:PsiDirectoryNode" />
-              <item name="Forms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Lab10" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Lab10" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ServletTest" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Lab10" type="b2602c69:ProjectViewProjectNode" />
@@ -241,6 +194,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -256,7 +211,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.applicationServers" />
@@ -466,11 +421,13 @@
       <workItem from="1559113667144" duration="3154000" />
       <workItem from="1559142695920" duration="2231000" />
       <workItem from="1559210161766" duration="354000" />
+      <workItem from="1559220484306" duration="1047000" />
+      <workItem from="1559237846602" duration="385000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53900000" />
+    <option name="totallyTimeSpent" value="55332000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1719" height="932" extended-state="6" />
@@ -506,8 +463,8 @@
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="9" sideWeight="0.6276463" visible="true" weight="0.24233313" />
-      <window_info anchor="right" id="Web" order="10" sideWeight="0.37235367" side_tool="true" visible="true" weight="0.24233313" />
+      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="9" sideWeight="0.6251557" visible="true" weight="0.24834636" />
+      <window_info anchor="right" id="Web" order="10" sideWeight="0.37484434" side_tool="true" visible="true" weight="0.24834636" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -612,13 +569,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="30" column="39" lean-forward="true" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/Welcome.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -659,8 +609,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        <state relative-caret-position="147">
+          <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -670,10 +627,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>Lab10:war exploded</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

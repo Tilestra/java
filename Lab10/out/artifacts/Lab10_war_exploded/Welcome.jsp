@@ -3,15 +3,10 @@
     <head>
         <title>Welcome</title>
         <style>
-
         </style>
     </head>
     <body>
-        <a href="LoginForm.jsp">Log out</a>
-
-        
-
-
+        <a href="LoginForm.jsp">Log out</a><br>
         hello user
     </body>
 </html>
