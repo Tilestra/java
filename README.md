@@ -1,2 +1,2 @@
 # Java-labs
-Just a labs on Java Language
+Just the labs on Java
